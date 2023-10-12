@@ -406,3 +406,29 @@ Every good language comes with the capability of commenting. When the first non-
 
 - GitHub repository: `monty`
 
+#### 11.pchar
+
+Implement the pchar opcode.
+
+**The pchar opcode**
+
+The opcode pchar prints the char at the top of the stack, followed by a new line.
+
+- Usage: pchar
+- The integer stored at the top of the stack is treated as the ascii value of the character to be printed
+- If the value is not in the ascii table (man ascii) print the error message L<line_number>: can't pchar, value out of range, followed by a new line, and exit with the status EXIT_FAILURE
+- If the stack is empty, print the error message L<line_number>: can't pchar, stack empty, followed by a new line, and exit with the status EXIT_FAILURE
+
+```
+julien@ubuntu:~/monty$ cat bytecodes/28.m
+push 72
+pchar
+julien@ubuntu:~/monty$ ./monty bytecodes/28.m
+H
+julien@ubuntu:~/monty$
+```
+
+**Repo:**
+
+- GitHub repository: `monty`
+
