@@ -646,3 +646,23 @@ julien@ubuntu:~/monty/bf$ bf ./1001-add.bf
 - GitHub repository: `monty`
 - Directory: `bf`
 - File: `1001-add.bf`
+
+#### 18.Multiplication
+
+Multiply two digits given by the user.
+
+- Read the two digits from stdin, multiply them, and print the result
+- The result of the multiplication will be one digit-long (<10)
+
+```
+julien@ubuntu:~/monty/bf$ bf 1002-mul.bf
+24
+8julien@ubuntu:~/monty/bf$
+```
+**Repo:**
+
+- GitHub repository: `monty`
+- Directory: `bf`
+- File: `1002-mul.bf`
+
+
