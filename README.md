@@ -665,4 +665,21 @@ julien@ubuntu:~/monty/bf$ bf 1002-mul.bf
 - Directory: `bf`
 - File: `1002-mul.bf`
 
+#### 19. Multiplication level up
 
+Multiply two digits given by the user.
+
+- Read the two digits from stdin, multiply them, and print the result, followed by a new line
+
+```
+julien@ubuntu:~/monty/bf$ bf 1003-mul.bf
+77
+49
+julien@ubuntu:~/monty/bf$
+```
+
+**Repo:**
+
+- GitHub repository: `monty`
+- Directory: `bf`
+- File: `1003-mul.bf`
