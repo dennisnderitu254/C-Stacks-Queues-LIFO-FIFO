@@ -629,4 +629,20 @@ julien@ubuntu:~/monty/bf$
 - Directory: `bf`
 - File: `1000-school.bf`
 
+#### 17. Add two digits
 
+Add two digits given by the user.
+
+- Read the two digits from stdin, add them, and print the result
+- The total of the two digits with be one digit-long (<10)
+
+```
+julien@ubuntu:~/monty/bf$ bf ./1001-add.bf
+81
+9julien@ubuntu:~/monty/bf$
+```
+**Repo:**
+
+- GitHub repository: `monty`
+- Directory: `bf`
+- File: `1001-add.bf`
