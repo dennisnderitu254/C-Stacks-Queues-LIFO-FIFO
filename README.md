@@ -295,3 +295,18 @@ julien@ubuntu:~/monty$
 - GitHub repository: `monty`
 
 
+#### 5.nop
+
+Implement the nop opcode.
+
+**The nop opcode**
+
+The opcode nop doesn’t do anything.
+
+- Usage: nop
+
+**Repo:**
+
+- GitHub repository: `monty`
+
+
