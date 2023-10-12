@@ -473,3 +473,73 @@ julien@ubuntu:~/monty$
 
 - GitHub repository: `monty`
 
+#### 13.rotl
+
+Implement the rotl opcode.
+
+**The rotl opcode**
+
+The opcode rotl rotates the stack to the top.
+
+- Usage: rotl
+- The top element of the stack becomes the last one, and the second top element of the stack becomes the first one
+- rotl never fails
+
+```
+julien@ubuntu:~/monty$ cat bytecodes/35.m
+push 1
+push 2
+push 3
+push 4
+push 5
+push 6
+push 7
+push 8
+push 9
+push 0
+pall
+rotl
+pall
+julien@ubuntu:~/monty$ ./monty bytecodes/35.m
+0
+9
+8
+7
+6
+5
+4
+3
+2
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+julien@ubuntu:~/monty$
+```
+**Repo:**
+
+- GitHub repository: `monty`
+
+#### 14.rotr
+
+Implement the rotr opcode.
+
+**The rotr opcode**
+
+The opcode rotr rotates the stack to the bottom.
+
+- Usage: rotr
+- The last element of the stack becomes the top element of the stack
+- rotr never fails
+
+**Repo:**
+
+- GitHub repository: `monty`
+
