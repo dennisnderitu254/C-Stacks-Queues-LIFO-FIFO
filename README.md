@@ -609,3 +609,24 @@ julien@ubuntu:~/monty$
 
 - GitHub repository: `monty`
 
+#### 16. Brainf*ck
+
+Write a Brainf*ck script that prints `School`, followed by a new line.
+
+- All your Brainf*ck files should be stored inside the bf sub directory
+- You can install the bf interpreter to test your code: `sudo apt-get install bf`
+- Read: [Brainf*ck](https://intranet.alxswe.com/rltoken/x0I37o6PVmnT0M1RF0XXjg)
+
+```
+julien@ubuntu:~/monty/bf$ bf 1000-school.bf
+School
+julien@ubuntu:~/monty/bf$
+```
+
+**Repo:**
+
+- GitHub repository: `monty`
+- Directory: `bf`
+- File: `1000-school.bf`
+
+
