@@ -1,4 +1,4 @@
-# C-Stacks-Queues-LIFO-FIFO
+# C-Stacks-Queues-LIFO-FIFO Docs
 
 ## Resources
 
